@@ -1,0 +1,14 @@
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+	Quadro q = new Quadro();
+	
+	q.formica.cor = "verde";
+	
+	System.out.println(q.formica.cor);
+	
+	}
+
+}

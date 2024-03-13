@@ -1,0 +1,13 @@
+package br.edu.senaisp.dao;
+
+import br.edu.senaisp.model.Sabor;
+
+public class SaborDAO {
+
+	public void novo(Sabor sabor) {
+		
+		Conexao()
+		
+	}
+	
+}

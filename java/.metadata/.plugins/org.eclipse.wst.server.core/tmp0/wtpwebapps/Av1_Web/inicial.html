@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Página Inicial</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    #titulo-inicial {
+        height: 20vh;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #0d131e;
+    }
+
+    #botao-inicial {
+        width: 200px;
+        height: 100px;
+        font-size: 30px;
+        background: linear-gradient(#1604d8, #7079dc);
+        color: white;
+    }
+
+    #local-botao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;   
+        background-color: #0d131e;
+    }
+
+</style>
+</head>
+<body>
+    <h1 id="titulo-inicial">Crie um novo usuário</h1>
+    
+        <div id="local-botao">
+            <button id="botao-inicial" onclick="window.location.href = '/Av1_Web/cadastro.html'" type="submit">NOVO</button>
+        </div>
+</body>
+</html>

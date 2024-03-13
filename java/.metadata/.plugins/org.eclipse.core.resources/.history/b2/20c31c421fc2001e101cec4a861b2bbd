@@ -1,0 +1,10 @@
+package br.edu.senaisp.controller;
+
+public class AlunoController {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

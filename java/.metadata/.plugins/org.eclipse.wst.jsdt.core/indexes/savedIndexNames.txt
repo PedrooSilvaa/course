@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\temp\Pedro 2dn\Java Pedro\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1908641757.index
+885382630.index
+1582441860.index
+1905254046.index
+3804956712.index
+1712576336.index
+2235990160.index
+25738522.index

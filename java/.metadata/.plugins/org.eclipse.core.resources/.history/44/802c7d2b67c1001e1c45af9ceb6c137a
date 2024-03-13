@@ -1,0 +1,10 @@
+
+public class Formica {
+
+	double altura;
+	double largura;
+	double profundidade;
+	String cor;
+	String brilho;
+	
+}

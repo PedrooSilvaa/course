@@ -1,0 +1,15 @@
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+	Quadro q = new Quadro();
+	
+	q.altura = 10.0;
+	q.formica =int 1;
+	
+	System.out.println(q.formica);
+	
+	}
+
+}

@@ -1,0 +1,68 @@
+package br.edu.senaisp.controller;
+
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
+
+import br.edu.senaisp.model.Aluno;
+
+public class AlunoController {
+
+	public static void main(String[] args) {
+
+		Aluno a1 = new Aluno(123L, "Josue", "000.000.000-00");
+		
+		Aluno a2 = new Aluno();
+		a2.setId(1010);
+		a2.setNome("Juju");
+		a2.setCpf("111.111.111-11");
+		
+		List<Aluno> lista = new ArrayList<Aluno>();
+		lista.add(a1);
+		lista.add(a2);
+		
+		try {
+			PrintWriter ps = new PrintWriter("C:\\temp\\TesteDeArquivo\\BancoDeDados.csv");
+			
+			for (Aluno aluno : lista) {
+				ps.print("ID: " + aluno.getId());
+				ps.print(" Nome: " + aluno.getNome());
+				ps.print(" CPF: " + aluno.getCpf());				
+				ps.println();
+			}
+			
+			ps.close();
+
+		} catch (Exception e) {  
+			System.out.println("Deu erro meu fi" + e.getMessage());
+		}
+		
+		
+	}
+
+}
+
+
+/*
+ try {
+			PrintWriter ps = new PrintWriter("C:\\temp\\TesteDeArquivo\\josue.txt");
+			
+			ps.print("ID: " + a1.getId());
+			ps.print(" Nome: " + a1.getNome());
+			ps.print(" CPF: " + a1.getCpf());
+	
+			ps.close();
+			
+			ps = new PrintWriter("C:\\temp\\TesteDeArquivo\\juju.txt");
+			
+			ps.print("ID: " + a2.getId());
+			ps.print(" Nome: " + a2.getNome());
+			ps.print(" CPF: " + a2.getCpf());
+			
+			ps.close();
+		} catch (Exception e) {  
+			System.out.println("Deu erro meu fi" + e.getMessage());
+		}
+		
+ */

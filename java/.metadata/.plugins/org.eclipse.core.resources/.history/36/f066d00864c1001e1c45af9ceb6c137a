@@ -1,0 +1,14 @@
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+	Quadro q = new Quadro();
+	
+	q.altura = 10.0;
+	
+	System.out.println(q.altura);
+	
+	}
+
+}

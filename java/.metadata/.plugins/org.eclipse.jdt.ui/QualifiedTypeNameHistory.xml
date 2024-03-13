@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.util.Log"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.view.FormPrincipal"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.dao.AlunoDAO"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.view.FormDetAluno"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="javax.swing.JDialog"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="javax.swing.JButton"/>
+    <fullyQualifiedTypeName name="javax.swing.JLabel"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextField"/>
+    <fullyQualifiedTypeName name="javax.swing.JTextArea"/>
+    <fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.view.FuncionarioDetView"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.nio.charset.Charset"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.view.FuncionarioView"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.dao.FuncionarioDao"/>
+    <fullyQualifiedTypeName name="java.io.Console"/>
+    <fullyQualifiedTypeName name="java.nio.file.attribute.AclEntryFlag"/>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="java.nio.BufferOverflowException"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.model.Funcionario"/>
+    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.util.Eoperacao"/>
+    <fullyQualifiedTypeName name="java.security.Provider.Service"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServlet"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.servelet.Banco"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.dao.SaborDAO"/>
+    <fullyQualifiedTypeName name="br.edu.senaisp.dao.dao"/>
+</qualifiedTypeNameHistroy>

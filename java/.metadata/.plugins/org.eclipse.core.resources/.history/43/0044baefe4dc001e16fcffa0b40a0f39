@@ -1,0 +1,27 @@
+package br.edu.senaisp.servelet;
+
+import java.io.IOException;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet(urlPatterns = "/banco")
+
+public class Banco {
+	
+	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+	
+		String nome = req.getParameter("p1");
+		String descricao = req.getParameter("p2");
+		String preco = req.getParameter("p3");
+		
+		if(nome.equalsIgnoreCase("") && descricao.equalsIgnoreCase("") && preco.equalsIgnoreCase("")) {
+			System.out.println("null");
+		}else {
+			System.out.println(nome + "\n" + descricao + "\n" + preco);
+		}
+	}
+}

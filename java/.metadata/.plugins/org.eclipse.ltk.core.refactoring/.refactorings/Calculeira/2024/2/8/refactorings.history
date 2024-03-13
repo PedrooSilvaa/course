@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;html&apos; in &apos;br.edu.senaisp.servlet.OlaMundo.service(...)&apos; to &apos;xaxa&apos;&#x0D;&#x0A;- Original project: &apos;MeuWeb1&apos;&#x0D;&#x0A;- Original element: &apos;br.edu.senaisp.servlet.OlaMundo.service(HttpServletRequest, HttpServletResponse).html&apos;&#x0D;&#x0A;- Renamed element: &apos;html&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;html&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;br.edu.senaisp.servlet{OlaMundo.java[OlaMundo~service~QHttpServletRequest;~QHttpServletResponse;@html!458!493!470!473!QPrintWriter;!0!false" name="xaxa" references="true" stamp="1708650380055" version="1.0"/>
+</session>

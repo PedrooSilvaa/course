@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Página Cadastro</title>
+<style>
+
+    body {
+        background-color: #323946;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+
+    form {
+        color: white;
+        background-color: #1f242d;
+        font-weight: 900;
+        font-size: 20px;
+        height: 400px;
+        text-align: center;
+        justify-content: center;
+        border: 10px solid black;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+    }
+
+    input {
+        margin-bottom: 30px;
+        width: 60%;
+        cursor: pointer;
+        border: 2px solid black;
+    }
+
+    button {
+        background-color: #0ef;
+        color: white;
+        font-size: 20px;
+        padding: 5px;
+        margin-bottom: 10px;
+        width: 60%;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <form action="/Av1_Web/Banco">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="p1">
+        <label for="descricao">Descrição</label>
+        <input type="text" id="descricao" name="p2">
+        <label for="preco">Preço</label>
+        <input type="text" id="preco" name="p3">
+        <button type="submit">GRAVAR</button>
+        <button type="submit">CANCELAR</button>
+    </form>
+</body>
+</html>

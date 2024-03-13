@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;br.edu.senai.model&apos; to &apos;br.edu.senaisp.model&apos;&#x0D;&#x0A;- Original project: &apos;WB_Aula2_Parte1&apos;&#x0D;&#x0A;- Original element: &apos;WB_Aula2_Parte1/src/br.edu.senai.model&apos;&#x0D;&#x0A;- Renamed element: &apos;WB_Aula2_Parte1/src/br.edu.senaisp.model&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;br.edu.senai.model&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;br.edu.senai.model" name="br.edu.senaisp.model" qualified="false" references="true" stamp="1706912360987" textual="false" version="1.0"/>
+</session>

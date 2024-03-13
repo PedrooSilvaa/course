@@ -1,0 +1,10 @@
+
+public class Quadro {
+
+	double area;
+	double altura;
+	double largura;
+	double profundidade;
+	Formica formica;
+	
+}
